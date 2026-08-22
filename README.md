@@ -10,6 +10,7 @@
 |------|------|------|------|
 | **CCSwitch** | AI 编程时代的工具配置管理实践 | 60 分钟 | [`ppt/CCSwitch.md`](./ppt/CCSwitch.md) |
 | **LobeHub** | AI 智能体平台快速入门 | 60 分钟 | [`ppt/LobeHub.md`](./ppt/LobeHub.md) |
+| **独立开发者工具全景** | 独立开发者的工具介绍 | 60 分钟 | [`ppt/IndieDevTools.md`](./ppt/IndieDevTools.md) |
 
 ### 课程简介
 
