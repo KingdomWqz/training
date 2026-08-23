@@ -11,11 +11,15 @@
 | **CCSwitch** | AI 编程时代的工具配置管理实践 | 60 分钟 | [`ppt/CCSwitch.md`](./ppt/CCSwitch.md) |
 | **LobeHub** | AI 智能体平台快速入门 | 60 分钟 | [`ppt/LobeHub.md`](./ppt/LobeHub.md) |
 | **独立开发者工具全景** | 独立开发者的工具介绍 | 60 分钟 | [`ppt/IndieDevTools.md`](./ppt/IndieDevTools.md) |
+| **电商封面图AI制作** | 主流图片生成模型实战 | 60 分钟 | [`ppt/EcommerceCover.md`](./ppt/EcommerceCover.md) |
+| **电商带货短视频AI生成** | 主流AI视频工具实战 | 60 分钟 | [`ppt/EcommerceVideo.md`](./ppt/EcommerceVideo.md) |
 
 ### 课程简介
 
 - **[CCSwitch 教学大纲](./ppt/CCSwitch.md)**：面向在校学生，介绍 AI 编程工具生态现状与配置管理痛点，讲解 CCSwitch 的供应商管理、MCP 服务器管理、Skills 与 Prompts 管理等核心功能，并融入产品思维与职业发展的启发。
 - **[LobeHub 教学大纲](./ppt/LobeHub.md)**：面向初次接触 AI 智能体平台的用户，在 60 分钟内掌握 LobeHub 的Agent 创建、技能与知识库、群组协作与记忆，以及社区资源与典型应用场景。
+- **[电商封面图AI制作教学大纲](./ppt/EcommerceCover.md)**：面向电商运营与中小卖家，介绍主流图片生成模型（Midjourney、即梦AI、Nano Banana 等）的选型方法，讲解封面图提示词公式，并通过白底主图、场景种草图、促销海报三个实战任务完成从出图到上架的全流程。
+- **[电商带货短视频AI生成教学大纲](./ppt/EcommerceVideo.md)**：面向电商运营与带货主播，介绍主流AI视频生成工具（可灵AI、即梦AI、Vidu 等）与数字人工具的选型方法，讲解五段式带货脚本公式与分镜方法，并通过图生视频、数字人口播、剪映合成三个实战任务完成从脚本到成片的全流程。
 
 ## 使用方式
 
@@ -33,4 +37,4 @@
 
 ---
 
-*最后更新：2026-08-22*
+*最后更新：2026-08-23*
