@@ -2,15 +2,11 @@
 title: 第5课 桌面App多Agent协作（30分钟）
 course: OpenAI Codex 从入门到精通
 lesson: 5
-tags:
-  - training
-  - codex
 created: 2026-08-26
 ---
 
 # 第 5 课：桌面 App 多 Agent 协作（30 分钟）
 
-**对应教材**：《OpenAI Codex 从入门到精通》§06 Codex App：多Agent的指挥中心
 **教学目标**：
 1. 掌握 Codex 桌面 App 的项目/线程管理与 Local / Worktree / Cloud 三种线程模式
 2. 理解 Worktree 隔离机制与 Handoff 流程，能安全地组织多 Agent 并行开发
@@ -97,7 +93,6 @@ created: 2026-08-26
 ## 课后作业
 1. 设计一个你工作中的三任务并行方案（写明每个任务的隔离方式与验收标准）
 2. 执行一次完整的 smoke test 并记录结果
-3. 阅读《OpenAI Codex 从入门到精通》§06 全章
 
 ## 教学准备清单
 - [ ] 讲师机 macOS/Windows 各一台用于平台差异演示（至少其一）
@@ -105,7 +100,7 @@ created: 2026-08-26
 - [ ] 打印 MultiAgentV2 已知 Bug 清单（含 Issue 号）作为课堂资料
 
 ## 参考资源
-- 教材：§06 Codex App 全章；附录A（/agent、/apps 等 App 相关命令）
+- 附录A（/agent、/apps 等 App 相关命令）
 
 ---
 

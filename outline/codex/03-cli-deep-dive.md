@@ -2,15 +2,11 @@
 title: 第3课 CLI深度使用与安全机制（30分钟）
 course: OpenAI Codex 从入门到精通
 lesson: 3
-tags:
-  - training
-  - codex
 created: 2026-08-26
 ---
 
 # 第 3 课：CLI 深度使用与安全机制（30 分钟）
 
-**对应教材**：《OpenAI Codex 从入门到精通》§04 Codex CLI 深度使用、附录A 命令速查表
 **教学目标**：
 1. 熟练运用 CLI 高频命令（`exec` / `resume` / `update`）与 Slash Commands 提升效率
 2. 理解 Auto-review 新审批心智模型及沙盒三档的边界含义，能按场景选择正确的安全组合
@@ -30,10 +26,10 @@ created: 2026-08-26
    - `codex exec "任务"` 非交互执行（自动化核心）
    - `codex resume --last` 恢复上次会话（`--all` 跨项目恢复）
 2. **其他高频参数速览**（结合教材速查表）
-   - `--model gpt-5.5`、`-i screenshot.png` 图片输入、`--cd` 指定目录、`--add-dir` 追加可写目录、`--search` 实时搜索
+   - `--model gpt-5.6-terra`、`-i screenshot.png` 图片输入、`--cd` 指定目录、`--add-dir` 追加可写目录、`--search` 实时搜索
    - `codex update` 自更新（0.128+）；Shell 补全 `codex completion zsh`
 3. **Slash Commands 重点命令**
-   - `/model` 切换模型（**成本控制要点：GPT-5.4 与 GPT-5.5 的费率差两倍**）
+   - `/model` 切换模型
    - `/review` 四种审查模式：对比基准分支 / 未提交改动 / 特定 commit / 自定义审查指令
    - `/goal` 持久化目标（0.128+，第 7 课展开）
    - `/permissions` 会话内切换安全模式；`/fork` 分叉线程
@@ -65,7 +61,6 @@ created: 2026-08-26
    - 安全浏览：`codex --sandbox read-only`
    - 编辑自动+命令需确认：`--sandbox workspace-write --ask-for-approval untrusted`
    - CI 只读无人值守：`--sandbox read-only --ask-for-approval never`
-5. 沙盒测试：`codex sandbox macos -- ls /tmp`
 
 ### 五、Full Access 红线警示课（4分钟）⚠️
 1. **Windows 删全盘事件还原**：近三个月多起事故（370GB / 700GB / 240GB 数据丢失，绕过回收站），官方承认但未修复未赔偿
@@ -101,17 +96,11 @@ created: 2026-08-26
 
 ## 课后作业
 1. 为常用工作流写一个 `codex exec` 自动化脚本并实测
-2. 把教材 §04「实用技巧汇总」中的技巧各实践一遍，记录最有用的三个
-3. 阅读《OpenAI Codex 从入门到精通》§04 全章
 
 ## 教学准备清单
 - [ ] 讲师机准备一个带 lint/test 的小型项目用于 exec 脚本演示
 - [ ] 准备 prompt injection 攻击示例文本（脱敏）用于 Auto-review 讲解
 - [ ] Windows 学员名单提前标注，个别辅导安全配置
-
-## 参考资源
-- 教材：§04 Codex CLI 深度使用；附录A 命令速查表
-- 来源引用（见教材）：OpenAI Community 1375894、GitHub Issue #18509、《Running Codex safely at OpenAI》
 
 ---
 

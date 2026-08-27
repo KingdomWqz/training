@@ -2,15 +2,11 @@
 title: 第7课 Skills、MCP、Automations与goal 四大扩展（30分钟）
 course: OpenAI Codex 从入门到精通
 lesson: 7
-tags:
-  - training
-  - codex
 created: 2026-08-26
 ---
 
 # 第 7 课：扩展能力四层体系——Skills / MCP / Automations / goal（30 分钟）
 
-**对应教材**：《OpenAI Codex 从入门到精通》§08 Skills、MCP 与 Automations
 **教学目标**：
 1. 理解四层扩展各自回答的问题，建立「操作手册 → 应用商店 → 插头接口 → 定时器 → 项目经理」的整体框架
 2. 掌握 SKILL.md 结构规范与 Progressive Disclosure 加载机制，能独立创建并正确触发一个 Skill
@@ -56,13 +52,7 @@ created: 2026-08-26
 6. **安全开关**：`agents/openai.yaml` 中 `allow_implicit_invocation: false` 禁止隐式触发——有破坏性操作的 Skill 必设
 7. **动手环节**：用 `$skill-creator` 创建第一个团队专属 Skill（如「提 PR 前自检清单」），在 config.toml 启停验证
 
-### 三、Plugin Marketplace 与外部会话导入（3分钟）
-1. 心智升级：本地装包 zip 分发 → 线上商店（0.124 远程浏览、0.128 远程安装+缓存）
-2. Plugin 打包三类内容：Skills + MCP Servers + App Connectors
-3. 90+ 官方插件方向速览：Atlassian Rovo / CircleCI / CodeRabbit / GitLab Issues / Microsoft Suite / Render
-4. 特色能力：把 Claude Code/Cursor/Gemini CLI 跑一半的 session 整体导入 Codex 继续——双工流友好
-
-### 四、MCP：连接外部世界的协议（7分钟）
+### 三、MCP：连接外部世界的协议（7分钟）
 1. 定位类比：Codex 的「USB 接口」；Codex 是 MCP-based API 消费最大单一驱动者
 2. **两种 Server 类型**：STDIO 本地进程 vs Streamable HTTP 远程服务（支持 Bearer/OAuth，`codex mcp login <name>`）
 3. **配置实操**
@@ -75,7 +65,7 @@ created: 2026-08-26
 5. 常用 Server 清单讲评：OpenAI Docs、Context7、Figma（设计稿→代码）、Playwright（浏览器自动化）、Chrome DevTools、Sentry（线上错误）、GitHub（PR/issue 管理）
 6. 彩蛋能力：`codex mcp-server` 让 Codex 自己成为其他 Agent 的工具
 
-### 五、Automations 定时任务系统（5分钟）
+### 四、Automations 定时任务系统（5分钟）
 1. 2026-04 升级要点：从「定时跑 prompt」进化到「调度未来任务 + 跨天跨周续跑」，agent 自行 wake up
 2. 配置要素：选项目 → 写 prompt → 设频率 → 选执行环境（local/worktree）；产出进 Triage 收件箱待审阅
 3. **前提与建议**
@@ -85,7 +75,7 @@ created: 2026-08-26
 5. 实用示例三则讲解：每日 commit 简报 / 自动修自己上周引入的 bug / 扫描 sessions 自动沉淀新 Skill
 6. 现场配置一个「每日代码简报」Automation（演示）
 
-### 六、/goal 持久化目标与四层联动（3分钟）
+### 五、/goal 持久化目标与四层联动（3分钟）
 1. 解决什么：普通 prompt 会话一清就没了；/goal 是 app-server 一等对象，**跨 /clear、跨 compaction、跨 session 存活**
 2. 五种状态机：pursuing / paused / achieved / unmet / budget-limited
 3. 经典案例：Alex Finn 一小时自治构建完整小游戏（目标 + image generation skill + 关屏走人）；「Ralph loop」长程自治模式
@@ -108,7 +98,6 @@ created: 2026-08-26
 ## 课后作业
 1. 把你重复解释过三次以上的偏好提炼成一个 Skill 并写清楚 description
 2. 设计一个「Skill+MCP+Automation+/goal」组合方案（书面蓝图即可，不必全部落地）
-3. 阅读《OpenAI Codex 从入门到精通》§08 全章
 
 ## 教学准备清单
 - [ ] 讲师机预装 2~3 个常用 MCP Server 备用
@@ -116,7 +105,6 @@ created: 2026-08-26
 - [ ] Automations 演示需提前登录 App 并保持后台运行
 
 ## 参考资源
-- 教材：§08 Skills、MCP 与 Automations 全章
 - agents 标准：SKILL.md 跨工具格式约定
 
 ---

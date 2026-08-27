@@ -2,15 +2,11 @@
 title: 第2课 第一个项目与核心工作流（30分钟）
 course: OpenAI Codex 从入门到精通
 lesson: 2
-tags:
-  - training
-  - codex
 created: 2026-08-26
 ---
 
 # 第 2 课：第一个项目与核心工作流（30 分钟）
 
-**对应教材**：《OpenAI Codex 从入门到精通》§03 你的第一个项目
 **教学目标**：
 1. 理解并复述 Codex 核心工作循环：Prompt → Plan → Execute → Verify
 2. 以 md2html 命令行工具为例，完整走通从空目录到功能完整的开发闭环
@@ -57,9 +53,8 @@ created: 2026-08-26
 1. 发出首个结构化 Prompt 建立 md2html 基础版
 2. 创建 sample.md 测试文件并验证输出 HTML
 3. 提出迭代需求：暗色代码高亮主题、嵌套列表层级样式修正
-4. 追加进阶功能：`--watch` 监听重转、`--css custom.css` 自定义样式、`--serve` 本地预览服务器
-5. 让 Codex 编写 README.md 说明文档
-6. 初始化 Git 并完成首次提交：
+4. 让 Codex 编写 README.md 说明文档
+5. 初始化 Git 并完成首次提交：
    ```
    git init && .gitignore(node_modules/dist) && commit "Initial commit: md2html CLI tool"
    ```
@@ -78,21 +73,16 @@ created: 2026-08-26
 ## 学员动手实践任务
 1. 跟随课程完成 md2html 工具的基础版本并通过浏览器验证
 2. 至少完成一次「提出样式迭代意见 → 验证修改生效」的循环
-3. 完成进阶功能中的任意两项（watch / css / serve）
-4. 完成 Git 初始化与规范 commit message 的提交
+3. 完成 Git 初始化与规范 commit message 的提交
 
 ## 课后作业
 1. 为你的 md2html 工具新增一个课堂上未提及的功能（如表格语法支持、多文件批量转换）
 2. 用 Codex 对作业结果做一轮自检并记录修复过程
-3. 阅读《OpenAI Codex 从入门到精通》§03 全章
 
 ## 教学准备清单
 - [ ] 讲师机提前演练一遍完整流程，预估课堂耗时
 - [ ] 准备 sample.md 参考样例供落后学员取用
 - [ ] 确认教室网络允许 npm install 安装依赖包
-
-## 参考资源
-- 教材：§03 你的第一个项目；附录A 命令速查表（TUI 操作部分）
 
 ---
 
