@@ -13,7 +13,7 @@
 | **独立开发者工具全景** | 独立开发者的工具介绍 | 60 分钟 | [`ppt/IndieDevTools.md`](./ppt/IndieDevTools.md) |
 | **电商封面图AI制作** | 主流图片生成模型实战 | 60 分钟 | [`ppt/EcommerceCover.md`](./ppt/EcommerceCover.md) |
 | **电商带货短视频AI生成** | 主流AI视频工具实战 | 60 分钟 | [`ppt/EcommerceVideo.md`](./ppt/EcommerceVideo.md) |
-| **OpenAI Codex 从入门到精通** | Codex 五形态全栈开发教学（8 课时） | 30 分钟 × 8 | [`outline/codex/README.md`](./outline/codex/README.md) |
+| **OpenAI Codex 从入门到精通** | Codex 五形态全栈开发与个人知识库教学（11 课时） | 30 分钟 × 11 | [`outline/codex/README.md`](./outline/codex/README.md) |
 
 ### 课程简介
 
@@ -21,7 +21,7 @@
 - **[LobeHub 教学大纲](./ppt/LobeHub.md)**：面向初次接触 AI 智能体平台的用户，在 60 分钟内掌握 LobeHub 的Agent 创建、技能与知识库、群组协作与记忆，以及社区资源与典型应用场景。
 - **[电商封面图AI制作教学大纲](./ppt/EcommerceCover.md)**：面向电商运营与中小卖家，介绍主流图片生成模型（Midjourney、即梦AI、Nano Banana 等）的选型方法，讲解封面图提示词公式，并通过白底主图、场景种草图、促销海报三个实战任务完成从出图到上架的全流程。
 - **[电商带货短视频AI生成教学大纲](./ppt/EcommerceVideo.md)**：面向电商运营与带货主播，介绍主流AI视频生成工具（可灵AI、即梦AI、Vidu 等）与数字人工具的选型方法，讲解五段式带货脚本公式与分镜方法，并通过图生视频、数字人口播、剪映合成三个实战任务完成从脚本到成片的全流程。
-- **[OpenAI Codex 从入门到精通](./outline/codex/README.md)**：基于《OpenAI Codex 从入门到精通 v2.0.1》橙皮书设计的系统课程，共 8 个课时（每课时 30 分钟）。内容覆盖五种形态认知与安装、核心工作循环、CLI 深度使用与安全机制、AGENTS.md 项目规则、桌面 App 多 Agent 协作、云端异步开发、Skills/MCP/Automations//goal 扩展体系，并以「从零构建完整 Web 产品」综合实战收尾，每个课时均含时间分配、课堂演示、动手任务与课后作业大纲。
+- **[OpenAI Codex 从入门到精通](./outline/codex/README.md)**：基于《OpenAI Codex 从入门到精通 v2.0.1》橙皮书设计的系统课程，共 11 个课时（每课时 30 分钟）。内容覆盖五种形态认知与安装、核心工作循环、CLI 深度使用与安全机制、AGENTS.md 项目规则、桌面 App 多 Agent 协作、云端异步开发、Skills/MCP/Automations//goal 扩展体系、结合 Obsidian 搭建 AI 维护的个人知识库（方法论、项目化接入、自动化流水线三课），并以「从零构建完整 Web 产品」综合实战收尾，每个课时均含时间分配、课堂演示、动手任务与课后作业大纲。
 
 ## 使用方式
 
