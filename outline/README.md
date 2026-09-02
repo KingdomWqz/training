@@ -1,6 +1,6 @@
 # OpenAI Codex 从入门到精通（教学课程）
 
-**课程版本**：v1.6（基于《OpenAI Codex 从入门到精通 v2.0.1》橙皮书编写；v1.2 新增个人知识库模块，v1.3 新增内容创作实战篇，v1.4 综合实战拆分为三课时，v1.5 课程重组为两篇结构，v1.6 内容创作每场景扩为三课时）
+**课程版本**：v1.6（v1.2 新增个人知识库模块，v1.3 新增内容创作实战篇，v1.4 综合实战拆分为三课时，v1.5 课程重组为两篇结构，v1.6 内容创作每场景扩为三课时）
 **适用教材版本**：Codex CLI 0.130+ · 模型 GPT-5.5 / GPT-5.4 / GPT-5.4-mini
 **总课时数**：25 课时 × 30 分钟 = 12.5 学时
 **目标受众**：工程师、产品经理、独立开发者，以及希望掌握 AI 编程工作流的技术从业者
@@ -80,20 +80,20 @@
 
 **第一篇 · 基础篇**
 
-- [第 1 课大纲](./01-intro-and-setup.md)
-- [第 2 课大纲](./02-first-project.md)
-- [第 3 课大纲](./03-cli-deep-dive.md)
-- [第 4 课大纲](./04-agents-md.md)
-- [第 5 课大纲](./05-desktop-app.md)
-- [第 6 课大纲](./06-cloud-async.md)
-- [第 7 课大纲](./07-skills-mcp.md)
-- [第 8 课大纲](./08-obsidian-vault.md)
-- [第 9 课大纲](./09-codex-vault.md)
-- [第 10 课大纲](./10-knowledge-automation.md)
+- [第 1 课大纲](./codex/base/01-intro-and-setup.md)
+- [第 2 课大纲](./codex/base/02-first-project.md)
+- [第 3 课大纲](./codex/advance/01-cli-deep-dive.md)
+- [第 4 课大纲](./codex/advance/02-agents-md.md)
+- [第 5 课大纲](./codex/base/03-desktop-app.md)
+- [第 6 课大纲](./codex/advance/03-cloud-async.md)
+- [第 7 课大纲](./codex/advance/04-skills-mcp.md)
+- [第 8 课大纲](./wiki/01-obsidian-vault.md)
+- [第 9 课大纲](./wiki/02-codex-vault.md)
+- [第 10 课大纲](./wiki/03-knowledge-automation.md)
 
 **第二篇 · 实战篇**
 
-- 第 11~13 课（静态网站综合项目）：原 [11-capstone-project.md](./11-capstone-project.md) 需改写为三课时结构
+- 第 11~13 课（静态网站综合项目）：详见[综合实战大纲](./website/01-capstone-project.md)
 - 第 14~25 课大纲：待编写（公众号 / 小红书 / 生图 / 生视频四场景各 3 课时）
 
 > **文件索引说明**：基础篇（第 1~10 课）均有独立课时大纲文件；实战篇（第 11~25 课）的结构总览已确定，其中原第 11 课大纲文件对应拆分后的第 11~13 课，详细大纲将按场景逐一补充。
