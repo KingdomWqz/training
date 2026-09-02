@@ -2,6 +2,27 @@
 
 本仓库收集面向 AI 编程工具、智能体平台与内容创作的教学大纲、演示课件和实践资料，用于课程培训、技术分享和自学参考。
 
+## 培训主线
+
+本培训按“先解决日常工作，再扩展工具边界，最后升级方法论”的路径展开，逐步建立从工具使用到 AI Native 实践的完整能力：
+
+1. **核心 Harness 工具**：学习 Codex、Claude Code 等核心 Harness 的使用，先解决写代码、改项目、查问题等最日常的工作。
+2. **周边常用工具**：延伸到 CCSwitch、LobeHub 等工具，覆盖配置管理、模型切换、智能体协作等更多使用场景。
+3. **验证过的能力沉淀**：将已经验证有效的工作方式沉淀为 Skill、MCP、Prompt 等可复用资产，让经验能够复用、共享和规模化。
+4. **工具之外的思维升级**：理解 OPC（One Person Company，个人公司）与 AI Native 思维，重新思考个人生产力、工作流和组织协作方式。
+5. **四大实战场景**：把方法落到个人知识库、Web 应用开发、生图和生视频四类高频场景中，完成从信息沉淀到应用成品的完整实践。
+
+这条主线对应三层学习目标：**会用工具 → 能搭工作流 → 能持续产出**。仓库中的课程大纲、课件与演示素材均围绕这条路径组织。
+
+## 课程亮点
+
+- **从真实工作出发**：围绕写代码、做网页、整理知识、制作图片和生成视频等高频任务展开，学完即可迁移到日常工作。
+- **工具与方法一起学**：不仅介绍 Codex、Claude Code、CCSwitch、LobeHub 等工具，还讲清楚如何选择工具、组织上下文和设计工作流。
+- **每一步都有可见成果**：课程强调边学边做，从一个可运行的项目、一套个人知识库，到可发布的图片和视频作品，持续积累作品集。
+- **沉淀可复用资产**：把有效经验整理成 Skill、MCP 和 Prompt，帮助个人和团队复制成功做法，越用越快。
+- **覆盖四大实战场景**：个人知识库、Web 应用开发、生图、生视频，兼顾生产力提升与内容创作落地。
+- **建立 AI Native 视角**：从“会使用 AI”进一步走向“用 AI 重构工作方式”，理解 OPC 与新型个人生产力。
+
 ## 目录结构
 
 - [`outline/`](./outline)：Markdown 教学大纲。课程总纲与索引统一维护在本文件，课时内容按主题子目录组织。
@@ -48,28 +69,40 @@
 - [云端异步开发](./outline/codex/advance/03-cloud-async.md)
 - [Skills、MCP、Automations 与 /goal](./outline/codex/advance/04-skills-mcp.md)
 
-**个人知识库课时**
-
-- [个人知识库方法论与 Obsidian](./outline/wiki/01-obsidian-vault.md)
-- [把知识库交给 Codex](./outline/wiki/02-codex-vault.md)
-- [知识自动化流水线](./outline/wiki/03-knowledge-automation.md)
-
-**静态网站综合实战（8 个单元）**
-
-- [确定主题并准备工具](./outline/website/01-idea-and-setup.md) 
-- [做出第一张网页](./outline/website/02-first-page.md) 
-- [用 Tailwind 统一样式](./outline/website/03-tailwind-style.md) 
-- [拆分复用组件](./outline/website/04-components.md)
-- [增加页面和内容](./outline/website/05-pages-and-content.md) 
-- [响应式与自测](./outline/website/06-responsive-testing.md) 
-- [Git 协作](./outline/website/07-git-collaboration.md) 
-- [发布上线与复盘](./outline/website/08-deploy-and-review.md)
-
 ### OPC：个人开发者与 AI 工具生态
 
 - [独立开发者工具全景](./outline/opc/01-IndieDevTools.md)
 - [CCSwitch：AI 编程工具配置管理](./outline/opc/02-CCSwitch.md)
 - [LobeHub：AI 智能体平台快速入门](./outline/opc/03-LobeHub.md)
+
+### Skills 资料
+
+- [Karpathy Prompt 指南](./outline/skill/01-karpathy-guildline.md)
+- [网页访问](./outline/skill/02-web-access.md)
+- [UI/UX Pro Max](./outline/skill/03-ui-ux-pro-max.md)
+- [归藏 PPT 制作](./outline/skill/04-guizang-ppt.md)
+- [Agent Browser](./outline/skill/05-agent-browser.md)
+
+### AI Native 思维
+
+- [AI Native 教学大纲](./outline/ainative/ai-native.md)
+
+### 个人知识库实战
+
+- [个人知识库方法论与 Obsidian](./outline/wiki/01-obsidian-vault.md)
+- [把知识库交给 Codex](./outline/wiki/02-codex-vault.md)
+- [知识自动化流水线](./outline/wiki/03-knowledge-automation.md)
+
+### Web 应用开发实战
+
+- [确定主题并准备工具](./outline/website/01-idea-and-setup.md)
+- [做出第一张网页](./outline/website/02-first-page.md)
+- [用 Tailwind 统一样式](./outline/website/03-tailwind-style.md)
+- [拆分复用组件](./outline/website/04-components.md)
+- [增加页面和内容](./outline/website/05-pages-and-content.md)
+- [响应式与自测](./outline/website/06-responsive-testing.md)
+- [Git 协作](./outline/website/07-git-collaboration.md)
+- [发布上线与复盘](./outline/website/08-deploy-and-review.md)
 
 ### AI 生图实战
 
@@ -82,25 +115,12 @@
 
 ### AI 电商短视频
 
-- [课程总纲](./outline/video/EcommerceVideo.md)
 - [工具与工作流](./outline/video/base/01-tools-and-workflow.md) 
 - [脚本与分镜](./outline/video/base/02-script-and-storyboard.md) 
 - [图生视频](./outline/video/base/03-image-to-video.md)
 - [数字人口播](./outline/video/advance/04-digital-human.md) 
 - [剪辑合成](./outline/video/advance/05-editing-and-composition.md) 
 - [发布与运营](./outline/video/advance/06-publishing-and-operations.md)
-
-### 其他资料
-
-- [AI Native 教学大纲](./outline/ainative/ai-native.md) 
-
-### Skills 资料
-
-- [Karpathy Prompt 指南](./outline/skill/01-karpathy-guildline.md)
-- [网页访问](./outline/skill/02-web-access.md)
-- [UI/UX Pro Max](./outline/skill/03-ui-ux-pro-max.md)
-- [归藏 PPT 制作](./outline/skill/04-guizang-ppt.md)
-- [Agent Browser](./outline/skill/05-agent-browser.md)
 
 ## 使用方式
 
