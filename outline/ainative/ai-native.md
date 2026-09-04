@@ -24,7 +24,7 @@
 > [!原生思维]
 > 跳出圈子，上帝视角，你的判断决定一切
 
-//todo 生图，一张多Agent的协作流程图
+![多 Agent 协作流程图](<assets/multi-agent-collaboration-workflow.webp>)
 
 1. TLeader 拆解任务
 ![](<assets/d741d8cf-df46-4b9a-b067-c9ff4d4487a7.webp>)
@@ -60,9 +60,7 @@
 > - AI模型本身没有问题，瓶颈在人
 > - AI写代码这事已经没有问题，瓶颈在其他环节
 
-Prompt Engineering -> Context Engineering -> Harness Engineering -> Loop Engineering
-
-// todo: 生图，展示技术发展过程图
+![AI 工程技术演进图](<assets/ai-engineering-evolution.webp>)
 
 ### 过去是『给软件加个 AI 功能』，现在是『从零开始让 AI 长成产品』
 
@@ -79,12 +77,12 @@ Prompt Engineering -> Context Engineering -> Harness Engineering -> Loop Enginee
 > IndieHacker、超级个体、AI Native的产品、AI Native的组织
 > 站在不同角度的理解
 
-三层对比（建议一张图）：
+三层对比：
 - AI-enhanced：老产品 + AI 插件
 - AI-first：先想 AI 能做什么，再设计交互
 - AI-native：数据流、工作流、组织形态全部围绕模型能力重构
 
-// todo 生图
+![](<assets/ai-product-maturity-comparison.webp>)
 
 ### 总结
 
