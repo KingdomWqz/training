@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI Native：当 AI 成为团队的原住民 · Swiss IKB</title>
+<title>AI Native：当 AI 成为团队的原住民</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=JetBrains+Mono:wght@300;400;500;600&family=Noto+Sans+SC:wght@200;300;400;500;700;900&display=swap" rel="stylesheet">
@@ -89,11 +89,6 @@
 
   /* ============ Deck 容器 + 翻页 ============ */
   #deck{position:fixed;inset:0;width:10000vw;height:100vh;display:flex;flex-wrap:nowrap;transition:transform .9s cubic-bezier(.77,0,.175,1);z-index:10;will-change:transform}
-  .template-example{display:none!important}
-  .canvas-card .sub-card{border-radius:0}
-  [data-slide-id="technology"] h2{font-size:min(3.3vw,6vh)!important}
-  [data-slide-id="practices"] .sub-grid-3-2{display:none!important}
-  [data-slide-id="practices"] figcaption{color:var(--ink)}
   .slide{
     width:100vw;height:100vh;flex:0 0 100vw;
     position:relative;
@@ -1238,86 +1233,53 @@
      - data-animate="..." 必须命中下方 RECIPES 字典里的已有 recipe 名之一(P23/P24 可复用 grid-reveal)
      - 主题色配置参考 references/themes-swiss.md (默认 IKB 克莱因蓝) -->
 
-<!-- AI Native deck · Swiss IKB · 普通翻页版（无演示者模式、无备注） -->
 <section class="slide accent" data-layout="SWISS-COVER-ASCII" data-animate="hero" data-slide-id="cover" data-title="AI Native：当 AI 成为团队的原住民">
-  <div class="canvas-card"><canvas class="ascii-bg" aria-hidden="true"></canvas>
-    <div class="chrome-min"><div class="l">AI NATIVE · TRAINING</div><div class="r">SWISS · IKB · 01 / 15</div></div>
-    <div style="flex:1;padding:0;display:grid;grid-template-rows:auto 1fr auto;gap:2.6vh">
-      <div data-anim="kicker" class="t-meta" style="color:rgba(255,255,255,.78);letter-spacing:.22em">CONTROL-ROOM EVIDENCE</div>
-      <h1 data-anim="title" style="align-self:center;font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(8.3vw,14.8vh);line-height:.95;letter-spacing:-.03em;color:#fff">AI Native：<br>当 AI 成为团队的<br><span style="font-style:italic;font-weight:300">原住民</span></h1>
-      <div data-anim="bottom" style="display:grid;gap:1.6vh;border-top:1px solid rgba(255,255,255,.22);padding-top:2vh"><div class="lead" style="max-width:52ch;color:rgba(255,255,255,.86);font-weight:300">从给软件加 AI，到让 AI 长成产品。</div><div style="display:flex;justify-content:space-between;align-items:end"><div class="t-meta" style="color:rgba(255,255,255,.62)">20 MIN · 面向工程师</div><div class="t-meta" style="color:rgba(255,255,255,.62)">← → / ESC 总览</div></div></div>
-    </div>
-  </div>
+  <div class="canvas-card"><canvas class="ascii-bg" aria-hidden="true"></canvas><div class="chrome-min"><div class="l">AI NATIVE · FIELD NOTE</div><div class="r">01 / 21</div></div><div style="flex:1;padding:0;display:grid;grid-template-rows:auto 1fr auto;gap:2.6vh"><div data-anim="kicker" class="t-meta" style="color:rgba(255,255,255,.72)">A NEW WAY OF WORKING</div><h1 data-anim="title" style="align-self:center;font-family:var(--sans),var(--sans-zh);font-size:min(8vw,14vh);font-weight:200;line-height:.95;letter-spacing:-.035em;color:#fff">AI Native：<br>当 AI 成为团队的<br><span style="font-style:italic;font-weight:300">原住民</span></h1><div data-anim="bottom" class="lead" style="border-top:1px solid rgba(255,255,255,.28);padding-top:2vh;color:rgba(255,255,255,.86)">不是加一个功能，而是重写一套工作方式。</div></div></div>
 </section>
 
-<section class="slide dark" data-layout="S22" data-animate="image-hero" data-slide-id="evidence-01" data-title="01 / 从需求开始">
-  <div class="canvas-card" style="background:var(--ink);color:var(--paper)"><div class="chrome-min"><div class="l">EVIDENCE · 01 / 从需求开始</div><div class="r">02 / 15</div></div><div data-anim="img" style="flex:1;min-height:0;display:grid;place-items:center;background:#111;overflow:hidden"><img data-image-slot="s22-hero-21x9" src="images/d741d8cf-df46-4b9a-b067-c9ff4d4487a7.webp" alt="PM Agent 与 TLeader Agent 拆解需求" loading="eager" style="display:block;max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain"></div></div>
+<section class="slide" data-layout="S11" data-animate="timeline-h" data-slide-id="two-scenes" data-title="两个现场">
+  <div class="canvas-card"><div class="chrome-min"><div class="l">OPENING · TWO SCENES</div><div class="r">02 / 21</div></div><div data-anim="line" style="display:flex;flex-direction:column;gap:1.4vh"><div class="t-cat accent">TODAY</div><h2 class="h-xl-zh" style="font-size:min(5.4vw,9.6vh)">先看两个现场</h2></div><div data-anim="up" class="timeline-h" style="margin-top:10vh"><div class="tl-h-axis"></div><div class="tl-h-node"><div class="dot"></div><div class="tl-h-nb">01</div><div class="tl-h-ttl">多 Agent 接住日常工作</div><div class="tl-h-desc">从重复执行中抽身，回到判断。</div></div><div class="tl-h-node"><div class="dot"></div><div class="tl-h-nb">02</div><div class="tl-h-ttl">一个 Agent 团队完成产品迭代</div><div class="tl-h-desc">从拆解到审查，形成可追踪闭环。</div></div></div></div>
 </section>
 
-<section class="slide light" data-layout="S22" data-animate="image-hero" data-slide-id="evidence-02" data-title="02 / 任务被派发">
-  <div class="canvas-card"><div class="chrome-min"><div class="l">EVIDENCE · 02 / 任务被派发</div><div class="r">03 / 15</div></div><div data-anim="img" style="flex:1;min-height:0;display:grid;place-items:center;background:var(--ink);overflow:hidden"><img data-image-slot="s22-hero-21x9" src="images/c85aa7b0-5f3d-44df-980e-aab0b16b5156.webp" alt="PMO Agent 派发任务给 Worker Agent" loading="eager" style="display:block;max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain"></div></div>
-</section>
+<section class="slide dark" data-layout="S22" data-animate="image-hero" data-slide-id="automation" data-title="Agent 接住重复工作"><div class="canvas-card" style="background:var(--ink);color:var(--paper)"><div class="chrome-min"><div class="l">SCENE · AUTOMATION</div><div class="r">03 / 21</div></div><div data-anim="img" style="flex:1;min-height:0;display:grid;grid-template-rows:auto 1fr;gap:2vh"><div><div class="t-cat on-dark">AUTOMATION</div><h2 style="font-size:min(4.2vw,7.5vh);font-weight:300">让人从执行中抽身，回到判断。</h2></div><img data-image-slot="s22-hero-21x9" src="images/20260904-111805.webp" alt="自动化任务现场" style="min-width:0;min-height:0;width:100%;height:100%;object-fit:contain"></div></div></section>
 
-<section class="slide dark" data-layout="S22" data-animate="image-hero" data-slide-id="evidence-03" data-title="03 / 工作被完成">
-  <div class="canvas-card" style="background:var(--ink);color:var(--paper)"><div class="chrome-min"><div class="l">EVIDENCE · 03 / 工作被完成</div><div class="r">04 / 15</div></div><div data-anim="img" style="flex:1;min-height:0;display:grid;place-items:center;background:#111;overflow:hidden"><img data-image-slot="s22-hero-21x9" src="images/Pasted image 20260825211802.webp" alt="Worker Agent 完成任务并反馈" loading="eager" style="display:block;max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain"></div></div>
-</section>
+<section class="slide" data-layout="S19" data-animate="four-cards" data-slide-id="human-role" data-title="人不退出，而是升级"><div class="canvas-card"><div class="chrome-min"><div class="l">HUMAN IN THE LOOP</div><div class="r">04 / 21</div></div><div data-anim="line" style="display:flex;flex-direction:column;gap:1.4vh"><div style="height:4px;background:var(--accent);width:12vw"></div><h2 class="h-xl-zh" style="font-size:min(5.2vw,9.2vh)">人不退出，而是升级</h2></div><div data-anim="up" class="four-cards" style="margin-top:7vh"><div class="card-fill"><div class="card-nb">01</div><div class="card-ttl">定义目标</div><p>决定要解决什么问题。</p></div><div class="card-fill"><div class="card-nb">02</div><div class="card-ttl">设定边界</div><p>明确权限、优先级与约束。</p></div><div class="card-fill"><div class="card-nb">03</div><div class="card-ttl">处理例外</div><p>在关键节点接管判断。</p></div><div class="card-fill"><div class="card-nb">04</div><div class="card-ttl">验收结果</div><p>确认结果是否值得交付。</p></div></div></div></section>
 
-<section class="slide light" data-layout="S22" data-animate="image-hero" data-slide-id="evidence-04" data-title="04 / 审查被触发">
-  <div class="canvas-card"><div class="chrome-min"><div class="l">EVIDENCE · 04 / 审查被触发</div><div class="r">05 / 15</div></div><div data-anim="img" style="flex:1;min-height:0;display:grid;place-items:center;background:var(--ink);overflow:hidden"><img data-image-slot="s22-hero-21x9" src="images/ebb0c7e9-82d5-419c-92ed-f9b770862549.webp" alt="PMO Agent 指派 Code Reviewer 审查代码" loading="eager" style="display:block;max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain"></div></div>
-</section>
+<section class="slide" data-layout="S22" data-animate="image-hero" data-slide-id="workflow-overview" data-title="产品迭代的协作闭环"><div class="canvas-card"><div class="chrome-min"><div class="l">PRODUCT ITERATION · COLLABORATION LOOP</div><div class="r">05 / 21</div></div><div data-anim="img" style="flex:1;min-height:0;display:grid;grid-template-rows:auto 1fr;gap:1.6vh"><div><div class="t-cat accent">MULTI-AGENT WORKFLOW</div><h2 style="font-size:min(4.4vw,7.8vh);font-weight:300">角色分工，反馈闭环。</h2></div><img data-image-slot="s22-hero-21x9" src="images/multi-agent-collaboration-workflow.webp" alt="多 Agent 协作流程图" style="width:100%;height:100%;object-fit:contain"></div></div></section>
 
-<section class="slide dark" data-layout="S22" data-animate="image-hero" data-slide-id="evidence-05" data-title="05 / 问题被找出">
-  <div class="canvas-card" style="background:var(--ink);color:var(--paper)"><div class="chrome-min"><div class="l">EVIDENCE · 05 / 问题被找出</div><div class="r">06 / 15</div></div><div data-anim="img" style="flex:1;min-height:0;display:grid;place-items:center;background:#111;overflow:hidden"><img data-image-slot="s22-hero-21x9" src="images/1561dc89-8b33-4ef7-ae27-fee2feb0dd6f.webp" alt="Code Reviewer Agent 审查出问题" loading="eager" style="display:block;max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain"></div></div>
-</section>
+<section class="slide dark" data-layout="S22" data-animate="image-hero" data-slide-id="leader" data-title="01：TLeader 拆解任务"><div class="canvas-card" style="background:var(--ink);color:var(--paper)"><div class="chrome-min"><div class="l">EVIDENCE · 01</div><div class="r">06 / 21</div></div><div data-anim="img" style="flex:1;min-height:0;display:grid;grid-template-rows:auto 1fr;gap:1.6vh"><div><div class="t-cat on-dark">TLEADER</div><h2 style="font-size:min(3.8vw,6.8vh);font-weight:300">把“想做什么”变成“谁能验收什么”。</h2></div><img data-image-slot="s22-hero-21x9" src="images/d741d8cf-df46-4b9a-b067-c9ff4d4487a7.webp" alt="TLeader 拆解需求" style="width:100%;height:100%;object-fit:contain"></div></div></section>
 
-<section class="slide light" data-layout="S22" data-animate="image-hero" data-slide-id="evidence-06" data-title="06 / 闭环通过">
-  <div class="canvas-card"><div class="chrome-min"><div class="l">EVIDENCE · 06 / 闭环通过</div><div class="r">07 / 15</div></div><div data-anim="img" style="flex:1;min-height:0;display:grid;place-items:center;background:var(--ink);overflow:hidden"><img data-image-slot="s22-hero-21x9" src="images/77d7519f-e080-4d6e-a998-919476ad0a69.webp" alt="Worker Agent 修复后再次提交审查并通过" loading="eager" style="display:block;max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain"></div></div>
-</section>
+<section class="slide" data-layout="S22" data-animate="image-hero" data-slide-id="dispatch" data-title="02：PMO 派发任务"><div class="canvas-card"><div class="chrome-min"><div class="l">EVIDENCE · 02</div><div class="r">07 / 21</div></div><div data-anim="img" style="flex:1;min-height:0;display:grid;grid-template-rows:auto 1fr;gap:1.6vh"><div><div class="t-cat accent">PMO</div><h2 style="font-size:min(3.8vw,6.8vh);font-weight:300">编排依赖与责任，不只是催进度。</h2></div><img data-image-slot="s22-hero-21x9" src="images/c85aa7b0-5f3d-44df-980e-aab0b16b5156.webp" alt="PMO 派发任务" style="width:100%;height:100%;object-fit:contain"></div></div></section>
 
-<section class="slide" data-layout="S08" data-animate="duo-mirror" data-slide-id="contrast" data-title="过去是加功能，现在是造新物种">
-  <div class="canvas-card"><div class="chrome-min"><div class="l">THE SHIFT · PRODUCT LOGIC</div><div class="r">08 / 15</div></div><div style="display:flex;flex-direction:column;gap:1.5vh"><div class="t-cat accent">CORE DISTINCTION</div><h2 class="h-xl-zh" style="font-size:min(5.2vw,9.2vh)">过去是加功能，现在是造新物种</h2></div><div class="duo-compare" style="margin-top:7vh"><div class="col"><div class="col-tag"><span class="num">01</span>AI-ENHANCED</div><div class="col-ttl">给软件加 AI</div><p class="col-desc">老产品仍是主角，AI 只在缝里补一刀。</p><ul class="col-list"><li>代码掌控控制流</li><li>AI 是被调用的功能</li></ul></div><span class="vrule"></span><div class="col accent"><div class="col-tag"><span class="num">02</span>AI-NATIVE</div><div class="col-ttl">让 AI 长成产品</div><p class="col-desc">模型成为运行时，自己决定调哪个工具、走哪条路。</p><ul class="col-list"><li>模型掌控控制流</li><li>代码退成可调用的手脚</li></ul></div></div></div>
-</section>
+<section class="slide dark" data-layout="S22" data-animate="image-hero" data-slide-id="worker" data-title="03：Worker 执行与反馈"><div class="canvas-card" style="background:var(--ink);color:var(--paper)"><div class="chrome-min"><div class="l">EVIDENCE · 03</div><div class="r">08 / 21</div></div><div data-anim="img" style="flex:1;min-height:0;display:grid;grid-template-rows:auto 1fr;gap:1.6vh"><div><div class="t-cat on-dark">WORKER</div><h2 style="font-size:min(3.8vw,6.8vh);font-weight:300">执行不是终点，结果必须回到工作流。</h2></div><img data-image-slot="s22-hero-21x9" src="images/Pasted image 20260825211802.webp" alt="Worker 完成任务" style="width:100%;height:100%;object-fit:contain"></div></div></section>
 
-<section class="slide dark" data-layout="S03" data-animate="split-statement" data-slide-id="definition" data-title="AI Native 不是外挂">
-  <div class="canvas-card"><div class="split-half"><div class="half b-ink" style="justify-content:center;gap:2vh"><div class="t-cat on-dark">DEFINITION · 01</div><h2 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(7vw,12vh);line-height:.96;letter-spacing:-.04em;color:#fff">模型成为<br><span style="font-style:italic;font-weight:300">runtime</span></h2><p style="max-width:25ch;color:rgba(255,255,255,.72);font-size:18px;line-height:1.55">产品、数据流和组织协作围绕模型能力重构。</p></div><div class="half b-grey" style="justify-content:center;gap:2.4vh"><div class="t-cat">THREE LEVELS</div><h3 style="font-size:min(3.3vw,6vh);font-weight:300;line-height:1.1">AI-enhanced<br>→ AI-first<br>→ AI-native</h3><p class="t-body" style="max-width:28ch">差别不在有没有接入模型，而在模型是否重塑数据流、工作流与组织形态。</p></div></div></div>
-</section>
+<section class="slide" data-layout="S22" data-animate="image-hero" data-slide-id="review-trigger" data-title="04：触发审查"><div class="canvas-card"><div class="chrome-min"><div class="l">EVIDENCE · 04</div><div class="r">09 / 21</div></div><div data-anim="img" style="flex:1;min-height:0;display:grid;grid-template-rows:auto 1fr;gap:1.6vh"><div><div class="t-cat accent">QUALITY GATE</div><h2 style="font-size:min(3.8vw,6.8vh);font-weight:300">速度提升以后，质量门槛更重要。</h2></div><img data-image-slot="s22-hero-21x9" src="images/ebb0c7e9-82d5-419c-92ed-f9b770862549.webp" alt="PMO 触发代码审查" style="width:100%;height:100%;object-fit:contain"></div></div></section>
 
-<section class="slide" data-layout="S05" data-animate="stack-build" data-slide-id="layers" data-title="AI Native 的三层产品逻辑">
-  <div class="canvas-card"><div class="chrome-min"><div class="l">PRODUCT LOGIC · THREE LAYERS</div><div class="r">10 / 15</div></div><div data-anim="line" style="display:flex;flex-direction:column;gap:1.4vh"><div class="t-cat accent">FROM FEATURE TO SYSTEM</div><h2 class="h-xl-zh" style="font-size:min(5.1vw,9vh)">AI Native 重构的不是一块 UI</h2><p class="t-body" style="max-width:64ch;color:var(--text-secondary)">它同时重构能力边界、工作流和组织协作。</p></div><div class="stack-row" style="margin-top:6vh"><div class="stack-block b-grey"><div class="layer-nb">LAYER 01</div><i data-lucide="brain" class="layer-icon" aria-hidden="true"></i><div class="layer-ttl">模型能力</div><div class="layer-desc">持续跟踪能力边界，针对任务做成本 / 效果 / 延迟选型。</div><div class="layer-tag">CAN DO</div></div><div class="stack-block b-ink"><div class="layer-nb">LAYER 02</div><i data-lucide="workflow" class="layer-icon" aria-hidden="true"></i><div class="layer-ttl">工作流编排</div><div class="layer-desc">上下文、工具与 Agent 让模型从回答走向行动。</div><div class="layer-tag">KNOW + ACT</div></div><div class="stack-block b-accent"><div class="layer-nb">LAYER 03</div><i data-lucide="users" class="layer-icon" aria-hidden="true"></i><div class="layer-ttl">组织协作</div><div class="layer-desc">业务、技术与组织一起定义问题、验收智能、衡量 ROI。</div><div class="layer-tag">SUSTAIN</div></div></div></div>
-</section>
+<section class="slide dark" data-layout="S22" data-animate="image-hero" data-slide-id="review-finding" data-title="05：审查找出问题"><div class="canvas-card" style="background:var(--ink);color:var(--paper)"><div class="chrome-min"><div class="l">EVIDENCE · 05</div><div class="r">10 / 21</div></div><div data-anim="img" style="flex:1;min-height:0;display:grid;grid-template-rows:auto 1fr;gap:1.6vh"><div><div class="t-cat on-dark">CODE REVIEW</div><h2 style="font-size:min(3.8vw,6.8vh);font-weight:300">让错误显性化、可修复。</h2></div><img data-image-slot="s22-hero-21x9" src="images/1561dc89-8b33-4ef7-ae27-fee2feb0dd6f.webp" alt="Code Reviewer 审查问题" style="width:100%;height:100%;object-fit:contain"></div></div></section>
 
-<section class="slide dark" data-layout="S16" data-animate="field-notes" data-slide-id="practices" data-title="技术与组织现场证据">
-  <div class="canvas-card" style="background:var(--ink);color:var(--paper)"><div class="chrome-min"><div class="l">PRACTICE MAP · SIX CELLS</div><div class="r">11 / 15</div></div><div data-anim="line" style="display:flex;flex-direction:column;gap:1.4vh"><div class="t-cat on-dark">WHAT TO PRACTICE</div><h2 class="h-xl-zh" style="font-size:min(5vw,8.8vh)">把“智能”变成可交付能力</h2></div><div class="sub-grid-3-2" style="margin-top:4.5vh"><article class="sub-card"><i data-lucide="brain" aria-hidden="true"></i><span class="nb-corner">01</span><div class="ttl">模型选型</div><p class="desc">跟踪边界，为任务选对模型。</p></article><article class="sub-card"><i data-lucide="database" aria-hidden="true"></i><span class="nb-corner">02</span><div class="ttl">上下文管理</div><p class="desc">RAG、知识库与长上下文。</p></article><article class="sub-card accent"><i data-lucide="wrench" aria-hidden="true"></i><span class="nb-corner">03</span><div class="ttl">Agent 编排</div><p class="desc">工具调用、规划与反思。</p></article><article class="sub-card"><i data-lucide="shield-check" aria-hidden="true"></i><span class="nb-corner">04</span><div class="ttl">Harness</div><p class="desc">评测、可观测性、安全护栏。</p></article><article class="sub-card"><i data-lucide="users" aria-hidden="true"></i><span class="nb-corner">05</span><div class="ttl">组织协作</div><p class="desc">定义问题，验收智能，衡量 ROI。</p></article><article class="sub-card"><i data-lucide="target" aria-hidden="true"></i><span class="nb-corner">06</span><div class="ttl">问题定义</div><p class="desc">从“调包”走向系统判断。</p></article></div>
-<div data-anim="up" style="display:grid;grid-template-columns:repeat(3,1fr);gap:1.2vh 1vw;margin-top:3vh;flex:1;min-height:0">
-  <figure style="background:var(--grey-1);padding:1vh .8vw;display:grid;grid-template-rows:auto auto;gap:.7vh;min-width:0;overflow:hidden"><div class="frame-img r-21x9" style="background:var(--paper)"><img data-image-slot="s16-brief-21x9" src="images/Pasted image 20260826164152.webp" alt="模型层证据" style="width:100%;height:100%;object-fit:contain"></div><figcaption style="font-size:16px;font-weight:500;line-height:1.25">模型层 · 成本 / 效果 / 延迟</figcaption></figure>
-  <figure style="background:var(--grey-1);padding:1vh .8vw;display:grid;grid-template-rows:auto auto;gap:.7vh;min-width:0;overflow:hidden"><div class="frame-img r-21x9" style="background:var(--paper)"><img data-image-slot="s16-brief-21x9" src="images/Pasted image 20260826164429.webp" alt="上下文层证据" style="width:100%;height:100%;object-fit:contain"></div><figcaption style="font-size:16px;font-weight:500;line-height:1.25">上下文层 · RAG / 知识库</figcaption></figure>
-  <figure style="background:var(--grey-1);padding:1vh .8vw;display:grid;grid-template-rows:auto auto;gap:.7vh;min-width:0;overflow:hidden"><div class="frame-img r-21x9" style="background:var(--paper)"><img data-image-slot="s16-brief-21x9" src="images/Pasted image 20260826162611.webp" alt="Agent 层证据" style="width:100%;height:100%;object-fit:contain"></div><figcaption style="font-size:16px;font-weight:500;line-height:1.25">Agent 层 · 工具调用与协作</figcaption></figure>
-  <figure style="background:var(--grey-1);padding:1vh .8vw;display:grid;grid-template-rows:auto auto;gap:.7vh;min-width:0;overflow:hidden"><div class="frame-img r-21x9" style="background:var(--paper)"><img data-image-slot="s16-brief-21x9" src="images/img_v3_0214u_9d855042-761c-4b43-bac5-0cb89611f37g.webp" alt="Harness 层证据" style="width:100%;height:100%;object-fit:contain"></div><figcaption style="font-size:16px;font-weight:500;line-height:1.25">Harness · 评测 / 可观测性 / 护栏</figcaption></figure>
-  <figure style="background:var(--grey-1);padding:1vh .8vw;display:grid;grid-template-rows:auto auto;gap:.7vh;min-width:0;overflow:hidden"><div class="frame-img r-21x9" style="background:var(--paper)"><img data-image-slot="s16-brief-21x9" src="images/Pasted image 20260826154123.webp" alt="协作现场一证据" style="width:100%;height:100%;object-fit:contain"></div><figcaption style="font-size:16px;font-weight:500;line-height:1.25">协作现场 · 角色分工</figcaption></figure>
-  <figure style="background:var(--grey-1);padding:1vh .8vw;display:grid;grid-template-rows:auto auto;gap:.7vh;min-width:0;overflow:hidden"><div class="frame-img r-21x9" style="background:var(--paper)"><img data-image-slot="s16-brief-21x9" src="images/Pasted image 20260826154150.webp" alt="协作现场二证据" style="width:100%;height:100%;object-fit:contain"></div><figcaption style="font-size:16px;font-weight:500;line-height:1.25">协作现场 · 交付反馈</figcaption></figure>
-</div></div>
-</section>
+<section class="slide" data-layout="S22" data-animate="image-hero" data-slide-id="approval" data-title="06：修复后再次提交"><div class="canvas-card"><div class="chrome-min"><div class="l">EVIDENCE · 06</div><div class="r">11 / 21</div></div><div data-anim="img" style="flex:1;min-height:0;display:grid;grid-template-rows:auto 1fr;gap:1.6vh"><div><div class="t-cat accent">CLOSED LOOP</div><h2 style="font-size:min(3.8vw,6.8vh);font-weight:300">交付不是生成一版，而是闭环通过。</h2></div><img data-image-slot="s22-hero-21x9" src="images/77d7519f-e080-4d6e-a998-919476ad0a69.webp" alt="Worker 修复并再次提交审查" style="width:100%;height:100%;object-fit:contain"></div></div></section>
 
-<section class="slide" data-layout="S17" data-animate="system-diagram" data-slide-id="technology" data-title="四层技术系统">
-  <div class="canvas-card"><div class="chrome-min"><div class="l">TECHNOLOGY · SYSTEM VIEW</div><div class="r">12 / 15</div></div><div style="display:grid;grid-template-columns:5fr 7fr;gap:4vw;flex:1;min-height:0;align-items:center"><div style="display:flex;flex-direction:column;gap:2vh"><div class="t-cat accent">THE STACK</div><h2 class="h-xl-zh" style="font-size:min(5.2vw,9.2vh)">技术不是一个模型，<br>而是四层系统</h2><p class="t-body" style="color:var(--text-secondary);max-width:32ch">模型能力只有经过上下文、Agent 与 Harness，才会稳定交付。</p><div style="border-top:1px solid var(--border-subtle);padding-top:1.8vh"><div class="t-meta">MODEL → CONTEXT → AGENT → HARNESS</div></div></div><div style="position:relative;min-height:48vh;display:grid;place-items:center"><svg class="sys-svg" viewBox="0 0 520 420" aria-hidden="true" style="width:100%;height:100%;max-height:52vh;overflow:visible"><circle cx="260" cy="210" r="170" fill="none" stroke="var(--grey-2)" stroke-width="1"/><circle cx="260" cy="210" r="122" fill="none" stroke="var(--grey-3)" stroke-width="1"/><circle cx="260" cy="210" r="75" fill="none" stroke="var(--accent)" stroke-width="2"/><path d="M260 35v350M85 210h350" stroke="var(--grey-2)" stroke-width="1" stroke-dasharray="4 8"/><path d="M260 135v150M185 210h150" stroke="var(--accent)" stroke-width="1" opacity=".65"/></svg><div style="position:absolute;top:7%;left:50%;transform:translateX(-50%);font-size:16px;font-weight:600;letter-spacing:.12em">HARNESS</div><div style="position:absolute;top:25%;right:2%;font-size:16px;font-weight:600;letter-spacing:.12em">AGENT</div><div style="position:absolute;bottom:25%;left:2%;font-size:16px;font-weight:600;letter-spacing:.12em">CONTEXT</div><div style="position:absolute;bottom:7%;left:50%;transform:translateX(-50%);font-size:16px;font-weight:600;letter-spacing:.12em;color:var(--accent)">MODEL</div></div></div></div>
-</section>
+<section class="slide" data-layout="S03" data-animate="split-statement" data-slide-id="opportunity" data-title="人人更接近产品创造者"><div class="canvas-card"><div class="split-half"><div class="half b-ink" style="justify-content:center;gap:2vh"><div class="t-cat on-dark">OPC · SUPER INDIVIDUAL</div><h2 style="font-size:min(7.2vw,12.5vh);font-weight:200;line-height:.96;color:#fff">人人都更接近<br><span style="font-style:italic;font-weight:300">做产品</span></h2></div><div class="half b-grey" style="justify-content:center;gap:2vh"><div class="t-cat">CROSSING ROLES</div><p style="font-size:min(2.6vw,4.7vh);font-weight:300;line-height:1.35">产品经理能搭 Agent<br>HR、PMO 也能重构流程</p><img data-image-slot="s16-brief-21x9" src="images/4126be1f-3cc8-40b9-8b61-dc27946e495b.webp" alt="跨界创作现场" style="width:100%;max-height:26vh;object-fit:contain"></div></div></div></section>
 
-<section class="slide dark" data-layout="S13" data-animate="three-forces" data-slide-id="organization" data-title="组织是第三根支柱">
-  <div class="canvas-card" style="background:var(--ink);color:var(--paper)"><div class="chrome-min"><div class="l">ORGANIZATION · THREE FORCES</div><div class="r">13 / 15</div></div><div style="display:grid;grid-template-columns:5fr 11fr;gap:2.4vw;flex:1;min-height:0"><div style="background:var(--accent);color:var(--accent-on);padding:3.4vh 2vw;display:flex;flex-direction:column;justify-content:space-between"><div class="t-cat" style="color:var(--accent-on)">THE THIRD PILLAR</div><div><div style="font-size:min(5vw,9vh);font-weight:200;line-height:.94;letter-spacing:-.04em">组织也要<br>重新设计</div><p style="font-size:18px;line-height:1.55;margin-top:2vh;max-width:20ch">谁定义问题、谁验收智能、如何衡量 ROI。</p></div><div class="t-meta" style="color:rgba(10,10,10,.68)">BUSINESS × TECH × ORG</div></div><div style="display:flex;flex-direction:column;justify-content:space-between;gap:1.4vh"><article class="card-fill" style="padding:2.5vh 1.8vw;min-height:0;flex:1"><div class="t-meta">01 · BUSINESS</div><div style="font-size:2.3vw;font-weight:300;margin-top:1vh">找到可重构的价值链</div><p class="t-body-sm" style="margin-top:1vh">不是把 AI 贴到旧流程上，而是找到 AI 真正能改变的环节。</p></article><article class="card-fill" style="padding:2.5vh 1.8vw;min-height:0;flex:1"><div class="t-meta">02 · TECH</div><div style="font-size:2.3vw;font-weight:300;margin-top:1vh">提供可规模化底座</div><p class="t-body-sm" style="margin-top:1vh">Agent、评测、可观测性与护栏，让智能可以持续交付。</p></article><article class="card-fill" style="padding:2.5vh 1.8vw;min-height:0;flex:1"><div class="t-meta">03 · ORGANIZATION</div><div style="font-size:2.3vw;font-weight:300;margin-top:1vh">调整协作与验收方式</div><p class="t-body-sm" style="margin-top:1vh">组织决定系统能不能长期运行，而不只是一次 demo。</p></article></div></div></div>
-</section>
+<section class="slide dark" data-layout="S22" data-animate="image-hero" data-slide-id="engineering-evolution" data-title="从提示词到系统闭环"><div class="canvas-card" style="background:var(--ink);color:var(--paper)"><div class="chrome-min"><div class="l">ENGINEERING EVOLUTION</div><div class="r">13 / 21</div></div><div data-anim="img" style="flex:1;min-height:0;display:grid;grid-template-rows:auto 1fr;gap:1.6vh"><div><div class="t-cat on-dark">PROMPT → CONTEXT → HARNESS → LOOP</div><h2 style="font-size:min(4.2vw,7.5vh);font-weight:300">从生成一个回答，到稳定地产生结果。</h2></div><img data-image-slot="s22-hero-21x9" src="images/ai-engineering-evolution.webp" alt="AI 工程技术演进图" style="width:100%;height:100%;object-fit:contain"></div></div></section>
 
-<section class="template-example" data-layout="S19" data-animate="four-cards" data-slide-id="engineer" data-title="工程师能力模型">
-  <div class="canvas-card"><div class="chrome-min"><div class="l">ENGINEER · CAPABILITY SHIFT</div><div class="r">14 / 15</div></div><div data-anim="line" style="display:flex;flex-direction:column;gap:1.4vh"><div class="t-cat accent">FROM IMPLEMENTATION TO ORCHESTRATION</div><h2 class="h-xl-zh" style="font-size:min(5.1vw,9vh)">提示词工程只是入场券</h2></div><div class="grid-4" style="margin-top:7vh;flex:1;align-content:stretch;gap:0"><div class="fc-col" style="border-top:2px solid var(--accent);padding:2.2vh 1.6vw 0 0;border-right:1px solid var(--border-subtle)"><div class="t-meta">— 01 / DEFINE</div><div style="font-size:2.7vw;font-weight:300;line-height:1.05;margin-top:1.8vh">定义问题</div><p class="t-body-sm" style="margin-top:1.4vh">把模糊目标变成可验证的任务。</p></div><div class="fc-col" style="border-top:2px solid var(--accent);padding:2.2vh 1.6vw 0;border-right:1px solid var(--border-subtle)"><div class="t-meta">— 02 / EVALUATE</div><div style="font-size:2.7vw;font-weight:300;line-height:1.05;margin-top:1.8vh">设计评测</div><p class="t-body-sm" style="margin-top:1.4vh">先定义“做对”，再让模型行动。</p></div><div class="fc-col" style="border-top:2px solid var(--accent);padding:2.2vh 1.6vw 0;border-right:1px solid var(--border-subtle)"><div class="t-meta">— 03 / HARNESS</div><div style="font-size:2.7vw;font-weight:300;line-height:1.05;margin-top:1.8vh">搭建 Harness</div><p class="t-body-sm" style="margin-top:1.4vh">把评测、观测与护栏编进系统。</p></div><div class="fc-col" style="border-top:2px solid var(--accent);padding:2.2vh 0 0 1.6vw"><div class="t-meta">— 04 / ORCHESTRATE</div><div style="font-size:2.7vw;font-weight:300;line-height:1.05;margin-top:1.8vh">编排系统</div><p class="t-body-sm" style="margin-top:1.4vh">让多个角色一起完成交付闭环。</p></div></div></div>
-</section>
+<section class="slide" data-layout="S08" data-animate="duo-mirror" data-slide-id="feature-vs-product" data-title="加功能，还是让 AI 长成产品？"><div class="canvas-card"><div class="chrome-min"><div class="l">THE SHIFT · PRODUCT LOGIC</div><div class="r">14 / 21</div></div><div data-anim="line" style="display:flex;flex-direction:column;gap:1.4vh"><div class="t-cat accent">CORE DISTINCTION</div><h2 class="h-xl-zh" style="font-size:min(5vw,8.8vh)">加功能，还是让 AI 长成产品？</h2></div><div data-anim="up" class="duo-compare" style="margin-top:6vh"><div class="col"><div class="col-tag"><span class="num">01</span>AI AS FEATURE</div><div class="col-ttl">给软件加 AI</div><p class="col-desc">确定流程 + 一个按钮</p><ul class="col-list"><li>人判断、复制、发送</li><li>页面与分工基本不变</li></ul></div><span class="vrule"></span><div class="col accent"><div class="col-tag"><span class="num">02</span>AI AS CORE</div><div class="col-ttl">让 AI 长成产品</div><p class="col-desc">人设目标，AI 执行多步骤</p><ul class="col-list"><li>人在关键节点验收与接管</li><li>数据流、流程和角色被重写</li></ul></div></div></div></section>
 
-<section class="slide light" data-layout="S14" data-animate="loop-form" data-slide-id="loop" data-title="从今天开始的练习闭环">
-  <div class="canvas-card"><div class="chrome-min"><div class="l">ACTION · PRACTICE LOOP</div><div class="r">15 / 15</div></div><div style="display:grid;grid-template-columns:5fr 7fr;gap:4vw;flex:1;min-height:0;align-items:center"><div class="loop-steps" style="display:flex;flex-direction:column;gap:0"><div class="t-cat accent" style="margin-bottom:2vh">START HERE</div><h2 class="h-xl-zh" style="font-size:min(5vw,8.8vh);margin-bottom:4vh">把练习改成<br>一个闭环</h2><div style="display:grid;grid-template-columns:auto 1fr;gap:1.6vw 1.4vw;align-items:start"><div class="t-meta">01</div><div><div style="font-size:1.8vw;font-weight:500">定义问题</div><p class="t-body-sm">先说清楚要改变什么。</p></div><div class="t-meta">02</div><div><div style="font-size:1.8vw;font-weight:500">设计评测</div><p class="t-body-sm">给“做对”设一条线。</p></div><div class="t-meta">03</div><div><div style="font-size:1.8vw;font-weight:500">搭建 Harness</div><p class="t-body-sm">把反馈与护栏放进系统。</p></div><div class="t-meta">04</div><div><div style="font-size:1.8vw;font-weight:500">复盘编排</div><p class="t-body-sm">让下一轮更快、更稳。</p></div></div></div><div style="position:relative;min-height:48vh;display:grid;place-items:center"><svg class="loop-svg" viewBox="0 0 460 380" aria-hidden="true" style="width:100%;height:100%;max-height:50vh;overflow:visible"><circle cx="230" cy="190" r="126" fill="none" stroke="var(--grey-2)" stroke-width="1" stroke-dasharray="7 8"/><path d="M230 64a126 126 0 0 1 119 84" fill="none" stroke="var(--accent)" stroke-width="3"/><path d="M348 148l-10-3 4 10" fill="none" stroke="var(--accent)" stroke-width="2"/><path d="M230 316a126 126 0 0 1-119-84" fill="none" stroke="var(--ink)" stroke-width="2"/><path d="M112 232l10 3-4-10" fill="none" stroke="var(--ink)" stroke-width="2"/><rect x="205" y="40" width="50" height="50" fill="var(--grey-1)"/><rect x="330" y="165" width="50" height="50" fill="var(--grey-1)"/><rect x="205" y="290" width="50" height="50" fill="var(--grey-1)"/><rect x="80" y="165" width="50" height="50" fill="var(--grey-1)"/></svg><div style="position:absolute;display:grid;place-items:center;text-align:center"><div style="font-size:min(5.6vw,10vh);font-weight:200;letter-spacing:-.04em">LOOP</div><div class="t-meta" style="margin-top:.8vh">持续改进</div></div><div style="position:absolute;top:3%;left:50%;transform:translateX(-50%);font-size:16px;font-weight:600">定义</div><div style="position:absolute;top:43%;right:0;font-size:16px;font-weight:600">评测</div><div style="position:absolute;bottom:3%;left:50%;transform:translateX(-50%);font-size:16px;font-weight:600">护栏</div><div style="position:absolute;top:43%;left:0;font-size:16px;font-weight:600">复盘</div></div></div></div>
-</section>
+<section class="slide" data-layout="S22" data-animate="image-hero" data-slide-id="maturity" data-title="三种 AI 成熟度"><div class="canvas-card"><div class="chrome-min"><div class="l">AI PRODUCT MATURITY</div><div class="r">15 / 21</div></div><div data-anim="img" style="flex:1;min-height:0;display:grid;grid-template-rows:auto 1fr;gap:1.6vh"><div><div class="t-cat accent">ADD-ON → RE-DESIGN → RECONSTRUCTION</div><h2 style="font-size:min(4.2vw,7.5vh);font-weight:300">从外挂，到系统重构。</h2></div><img data-image-slot="s22-hero-21x9" src="images/ai-product-maturity-comparison.webp" alt="AI 产品成熟度对比图" style="width:100%;height:100%;object-fit:contain"></div></div></section>
 
-<section class="slide split" data-layout="S10" data-animate="split-statement" data-slide-id="closing" data-title="从写实现，到定义问题与编排系统">
-  <div class="canvas-card"><div class="split-half"><div class="half b-accent" style="padding:5.6vh 3.6vw 4.4vh;justify-content:space-between;position:relative;overflow:hidden"><canvas class="ascii-bg" aria-hidden="true"></canvas><div class="chrome-min" style="margin-bottom:0"><div class="l">CLOSING · ACTION</div><div class="r">15 / 15</div></div><div data-anim="manifesto" style="display:flex;flex-direction:column;gap:2vh"><div class="t-meta" style="color:rgba(10,10,10,.72);letter-spacing:.22em">TAKE THE NEXT STEP</div><h2 style="font-family:var(--sans),var(--sans-zh);font-size:min(7.6vw,13vh);line-height:.94;letter-spacing:-.035em;font-weight:200;color:#fff">从写实现，<br>到定义问题<br>与<span style="font-style:italic;font-weight:300">编排系统</span></h2><div style="font-size:18px;line-height:1.6;color:rgba(255,255,255,.86);max-width:28ch">AI Native 不是某个岗位的事，而是一种让模型成为产品内核的工作方式。</div></div><div class="t-meta" style="color:rgba(10,10,10,.68)">AI NATIVE · END OF FIELD NOTE</div></div><div class="half" style="padding:5.6vh 3.6vw 4.4vh;justify-content:space-between"><div class="chrome-min"><div class="l">THREE TAKEAWAYS</div><div class="r">NEXT</div></div><div data-anim="rules" style="display:flex;flex-direction:column"><div style="display:grid;grid-template-columns:auto 1fr;gap:1.4vw;padding:2.2vh 0;border-top:1px solid var(--border-subtle)"><div style="font-size:min(4.4vw,7.8vh);font-weight:200;line-height:.9">01</div><div><div style="font-size:1.8vw;font-weight:400">模型是运行时</div><p class="t-body-sm" style="margin-top:.8vh">代码从大脑退成可调用的手脚。</p></div></div><div style="display:grid;grid-template-columns:auto 1fr;gap:1.4vw;padding:2.2vh 0;border-top:1px solid var(--border-subtle)"><div style="font-size:min(4.4vw,7.8vh);font-weight:200;line-height:.9">02</div><div><div style="font-size:1.8vw;font-weight:400">评测先于扩张</div><p class="t-body-sm" style="margin-top:.8vh">先定义做对，再让 Agent 行动。</p></div></div><div style="display:grid;grid-template-columns:auto 1fr;gap:1.4vw;padding:2.2vh 0;border-top:1px solid var(--border-subtle);border-bottom:2px solid var(--accent)"><div style="font-size:min(4.4vw,7.8vh);font-weight:200;line-height:.9;color:var(--accent)">03</div><div><div style="font-size:1.8vw;font-weight:400;color:var(--accent)">今天就练习</div><p class="t-body-sm" style="margin-top:.8vh">定义问题、设计评测、搭起 Harness。</p></div></div></div><div style="display:grid;grid-template-columns:1fr 1fr;gap:2vw;align-items:end"><div class="t-meta">投递入口<br>链接待补充</div><div style="width:12vh;height:12vh;border:2px dashed var(--grey-2);display:grid;place-items:center;color:var(--text-helper);font-size:14px;text-align:center;letter-spacing:.08em">QR<br>PLACEHOLDER</div></div></div></div></div>
-</section>
+<section class="slide dark" data-layout="S09" data-animate="statement" data-slide-id="definition" data-title="AI Native 的定义"><div class="canvas-card" style="background:var(--ink);color:#fff"><div class="chrome-min"><div class="l">DEFINITION</div><div class="r">16 / 21</div></div><div data-anim="statement" style="flex:1;display:flex;flex-direction:column;justify-content:center;gap:3vh"><div class="t-cat on-dark">AI NATIVE</div><h2 class="h-statement" style="font-size:min(7vw,12vh)">以模型能力为<br><span style="font-style:italic;font-weight:300">第一性原理</span><br>设计产品与组织</h2><p style="font-size:20px;color:rgba(255,255,255,.72)">AI：可选功能 → 工作流核心参与者</p></div></div></section>
 
+<section class="slide" data-layout="S19" data-animate="four-cards" data-slide-id="four-layers" data-title="四层工程底座"><div class="canvas-card"><div class="chrome-min"><div class="l">ENGINEERING FOUNDATION</div><div class="r">17 / 21</div></div><div data-anim="line" style="display:flex;flex-direction:column;gap:1.2vh"><div class="t-cat accent">FROM CAPABILITY TO RELIABILITY</div><h2 class="h-xl-zh" style="font-size:min(5vw,8.8vh)">模型给能力，Harness 给可靠性。</h2></div><div data-anim="up" class="stack-row" style="margin-top:7vh"><div class="stack-block b-grey"><div class="layer-nb">01</div><div class="layer-ttl">MODEL</div><div class="layer-desc">成本 / 效果 / 延迟</div></div><div class="stack-block b-ink"><div class="layer-nb">02</div><div class="layer-ttl">AGENT</div><div class="layer-desc">工具调用 / 规划 / 协作</div></div><div class="stack-block b-grey"><div class="layer-nb">03</div><div class="layer-ttl">CONTEXT</div><div class="layer-desc">RAG / 知识库 / 长上下文</div></div><div class="stack-block b-accent"><div class="layer-nb">04</div><div class="layer-ttl">HARNESS</div><div class="layer-desc">评测 / 观测 / 安全护栏</div></div></div></div></section>
+
+<section class="slide dark" data-layout="S16" data-animate="field-notes" data-slide-id="model-context" data-title="模型与上下文"><div class="canvas-card" style="background:var(--ink);color:#fff"><div class="chrome-min"><div class="l">MODEL + CONTEXT</div><div class="r">18 / 21</div></div><div data-anim="line" style="display:flex;flex-direction:column;gap:1.2vh"><div class="t-cat on-dark">KNOW + CAN DO</div><h2 class="h-xl-zh" style="font-size:min(4.8vw,8.5vh)">为任务选择能力，并提供正确上下文。</h2></div><div data-anim="up" style="display:grid;grid-template-columns:1fr 1fr;gap:2vw;margin-top:4vh;flex:1;min-height:0"><figure style="display:grid;grid-template-rows:1fr auto;gap:1vh;min-height:0"><img data-image-slot="s16-brief-21x9" src="images/Pasted image 20260826164152.webp" alt="模型选型证据" style="width:100%;height:100%;object-fit:contain;background:#fff"><figcaption style="font-size:18px;font-weight:500">MODEL：成本 / 效果 / 延迟</figcaption></figure><figure style="display:grid;grid-template-rows:1fr auto;gap:1vh;min-height:0"><img data-image-slot="s16-brief-21x9" src="images/Pasted image 20260826164429.webp" alt="上下文管理证据" style="width:100%;height:100%;object-fit:contain;background:#fff"><figcaption style="font-size:18px;font-weight:500">CONTEXT：知识 / 约束 / 历史</figcaption></figure></div></div></section>
+
+<section class="slide" data-layout="S16" data-animate="field-notes" data-slide-id="agent-harness" data-title="Agent 与 Harness"><div class="canvas-card"><div class="chrome-min"><div class="l">ACT + PROVE</div><div class="r">19 / 21</div></div><div data-anim="line" style="display:flex;flex-direction:column;gap:1.2vh"><div class="t-cat accent">ACTION + ASSURANCE</div><h2 class="h-xl-zh" style="font-size:min(4.8vw,8.5vh)">Agent 负责行动，Harness 负责证明可信。</h2></div><div data-anim="up" style="display:grid;grid-template-columns:1fr 1fr;gap:2vw;margin-top:4vh;flex:1;min-height:0"><figure style="display:grid;grid-template-rows:1fr auto;gap:1vh;min-height:0"><img data-image-slot="s16-brief-21x9" src="images/img_v3_0214u_9d855042-761c-4b43-bac5-0cb89611f37g.webp" alt="Agent 层证据" style="width:100%;height:100%;object-fit:contain"><figcaption style="font-size:18px;font-weight:500">AGENT：工具调用 / 规划 / 协作</figcaption></figure><figure style="display:grid;grid-template-rows:1fr auto;gap:1vh;min-height:0"><img data-image-slot="s16-brief-21x9" src="images/20260904-150646.webp" alt="Harness 层证据" style="width:100%;height:100%;object-fit:contain"><figcaption style="font-size:18px;font-weight:500">HARNESS：评测 / 观测 / 护栏</figcaption></figure></div></div></section>
+
+<section class="slide dark" data-layout="S13" data-animate="three-forces" data-slide-id="organization" data-title="技术、业务、组织必须一起转"><div class="canvas-card" style="background:var(--ink);color:#fff"><div class="chrome-min"><div class="l">THREE FORCES</div><div class="r">20 / 21</div></div><div data-anim="line" style="display:flex;flex-direction:column;gap:1.2vh"><div class="t-cat on-dark">SUSTAINABLE CHANGE</div><h2 class="h-xl-zh" style="font-size:min(4.8vw,8.5vh)">技术、业务、组织必须一起转。</h2></div><div data-anim="up" class="three-forces" style="margin-top:6vh"><div class="force"><div class="force-nb">01</div><div class="force-ttl">技术</div><div class="force-desc">决定能不能做。</div></div><div class="force"><div class="force-nb">02</div><div class="force-ttl">业务</div><div class="force-desc">决定值不值得做。</div></div><div class="force"><div class="force-nb">03</div><div class="force-ttl">组织</div><div class="force-desc">决定能不能持续做。</div></div></div><p style="margin-top:5vh;font-size:20px;color:rgba(255,255,255,.72)">编码时间被压缩后，重心转向问题定义、验收与协作编排。</p></div></section>
+
+<section class="slide split" data-layout="S10" data-animate="split-statement" data-slide-id="closing" data-title="从写实现，到编排系统"><div class="canvas-card"><div class="split-half"><div class="half b-accent" style="justify-content:center;gap:2.5vh"><div class="t-cat">TAKEAWAY</div><h2 style="font-size:min(6.8vw,12vh);font-weight:200;line-height:.95;color:#fff">从写实现，<br>到定义问题<br>与<span style="font-style:italic;font-weight:300">编排系统</span></h2></div><div class="half b-grey" style="justify-content:center;gap:2vh"><div class="t-cat">START HERE</div><div style="font-size:min(2.6vw,4.7vh);font-weight:300;line-height:1.45">01 定义可验收的问题<br>02 为结果写评测标准<br>03 搭一个能重复运行的闭环</div><p class="t-body" style="margin-top:2vh">让模型成为产品内核，而不是外挂。</p></div></div></div></section>
+
+<template>
 <!-- ============ 示例:第 1 页 · Hero Cover · IKB 满屏 + ASCII 呼吸场(默认推荐) ============
      ⚠️ P0 对齐法则(每页都要过):
      1. .canvas-card 已自带 padding:5.6vh 5vw 4.4vh,所有页面内容直接放在 canvas-card 子元素里,
@@ -1332,22 +1294,22 @@
      - canvas-card 内首位插入 <canvas class="ascii-bg" aria-hidden="true">,本文件底部 IIFE 自动启动
      - 主标题反白 weight 200,强调字用斜体而非 var(--accent)(底已是蓝,蓝压蓝看不见)
      - 不要再放编号大字"01"——chrome-min 已经标 01/NN -->
-<section class="template-example accent" data-animate="hero" data-slide-id="template-cover">
+<section class="template-example accent" data-animate="hero" data-slide-id="cover">
   <div class="canvas-card">
     <canvas class="ascii-bg" aria-hidden="true"></canvas>
     <div class="chrome-min">
-      <div class="l">AI Native · Issue / Field Note</div>
+      <div class="l">[必填] Deck 标题 · Issue/Field Note 编号</div>
       <div class="r">SS · 25.05.10 · 01 / NN</div>
     </div>
 
     <!-- 主体:padding 必须为 0,不要再叠 5vw,否则左右对不齐 chrome-min -->
     <div style="flex:1;padding:0;display:grid;grid-template-rows:auto 1fr auto;gap:2.6vh">
-      <div data-anim="kicker" class="t-meta" style="color:rgba(255,255,255,.78);letter-spacing:.22em">SECTION / OPENING</div>
+      <div data-anim="kicker" class="t-meta" style="color:rgba(255,255,255,.78);letter-spacing:.22em">[必填] 章节英文 / Section En</div>
 
-      <h1 data-anim="title" style="align-self:center;font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(11.6vw,19vh);line-height:.94;letter-spacing:-.025em;color:#fff">AI Native：<br/>模型成为内核</h1>
+      <h1 data-anim="title" style="align-self:center;font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(11.6vw,19vh);line-height:.94;letter-spacing:-.025em;color:#fff">[必填] 中文主标题<br/>(≤ 12 字,可在某字加 <span style="font-style:italic;font-weight:300">italic</span> 微强调)</h1>
 
       <div data-anim="bottom" style="display:grid;grid-template-rows:auto auto;gap:1.6vh;border-top:1px solid rgba(255,255,255,.22);padding-top:2vh">
-        <div data-anim="lead" class="lead" style="max-width:52ch;color:rgba(255,255,255,.86)">从给软件加 AI，到让 AI 长成产品。</div>
+        <div data-anim="lead" class="lead" style="max-width:52ch;color:rgba(255,255,255,.86)">[必填] 一段 1-2 行的副标 / 引子,定调全场.</div>
         <div style="display:flex;justify-content:space-between;align-items:end">
           <div class="t-meta" style="color:rgba(255,255,255,.6)">[选填] 作者 · 日期 · 出处</div>
           <div class="t-meta" style="color:rgba(255,255,255,.6)">→ swipe / arrow keys</div>
@@ -1360,7 +1322,7 @@
 <!-- ============ 示例:最后一页 · Closing Manifesto · 左 IKB+ASCII / 右白底 takeaway ============
      与封面 IKB 首尾呼应,但收束更克制:左半保留 ASCII 呼吸场承载宣言,右半白底列 3 条 takeaway.
      第 03 条用 var(--accent) IKB 蓝强调("单一锚点"原则),首尾形成"色彩闭环". -->
-<section class="template-example split" data-animate="split-statement" data-slide-id="template-closing">
+<section class="template-example split" data-animate="split-statement" data-slide-id="closing">
   <div class="canvas-card">
     <div class="split-half">
       <!-- 左半 · IKB 宣言 + ASCII 呼吸场 -->
@@ -1373,8 +1335,8 @@
 
         <div data-anim="manifesto" style="display:flex;flex-direction:column;gap:2vh;position:relative;z-index:1">
           <div class="t-meta" style="color:rgba(255,255,255,.78);letter-spacing:.22em;margin-bottom:1.6vh">MANIFESTO</div>
-          <h2 style="font-family:var(--sans),var(--sans-zh);font-size:min(8vw,14vh);line-height:.94;letter-spacing:-.025em;font-weight:200;color:#fff">Build a model.<br/>Run <span style="font-style:italic;font-weight:300">forever</span>.</h2>
-          <div style="font-family:var(--sans),var(--sans-zh);font-size:max(14px,1vw);line-height:1.6;color:rgba(255,255,255,.82);font-weight:400;max-width:36ch;margin-top:1.4vh">把反馈、评测与护栏编进系统，持续交付。</div>
+          <h2 style="font-family:var(--sans),var(--sans-zh);font-size:min(8vw,14vh);line-height:.94;letter-spacing:-.025em;font-weight:200;color:#fff">[必填] Build a model.<br/>Run <span style="font-style:italic;font-weight:300">forever</span>.</h2>
+          <div style="font-family:var(--sans),var(--sans-zh);font-size:max(14px,1vw);line-height:1.6;color:rgba(255,255,255,.82);font-weight:400;max-width:36ch;margin-top:1.4vh">[必填] 一句 1-2 行的中文/英文注脚,把宣言落地.</div>
         </div>
 
         <div data-anim="signature" style="display:flex;justify-content:space-between;align-items:end;border-top:1px solid rgba(255,255,255,.22);padding-top:2vh;position:relative;z-index:1">
@@ -1394,22 +1356,22 @@
           <div style="display:grid;grid-template-columns:auto 1fr;gap:2vw;align-items:start;padding:2.6vh 0;border-top:1px solid var(--border-subtle)">
             <div style="font-family:var(--sans);font-weight:200;font-size:min(4.4vw,7.8vh);line-height:.9;color:var(--text-primary)">01</div>
             <div>
-              <h3 style="font-family:var(--sans),var(--sans-zh);font-weight:400;font-size:max(18px,1.8vw);line-height:1.2;letter-spacing:-.015em;color:var(--text-primary);margin-bottom:1vh">模型是运行时</h3>
-              <p style="font-family:var(--sans),var(--sans-zh);font-size:max(16px,.94vw);line-height:1.6;color:var(--text-secondary);font-weight:400">代码从大脑退成可调用的手脚。</p>
+              <h3 style="font-family:var(--sans),var(--sans-zh);font-weight:400;font-size:max(18px,1.8vw);line-height:1.2;letter-spacing:-.015em;color:var(--text-primary);margin-bottom:1vh">[必填] takeaway 标题 01</h3>
+              <p style="font-family:var(--sans),var(--sans-zh);font-size:max(16px,.94vw);line-height:1.6;color:var(--text-secondary);font-weight:400">[必填] 1-2 行展开说明.</p>
             </div>
           </div>
           <div style="display:grid;grid-template-columns:auto 1fr;gap:2vw;align-items:start;padding:2.6vh 0;border-top:1px solid var(--border-subtle)">
             <div style="font-family:var(--sans);font-weight:200;font-size:min(4.4vw,7.8vh);line-height:.9;color:var(--text-primary)">02</div>
             <div>
-              <h3 style="font-family:var(--sans),var(--sans-zh);font-weight:400;font-size:max(18px,1.8vw);line-height:1.2;letter-spacing:-.015em;color:var(--text-primary);margin-bottom:1vh">评测先于扩张</h3>
-              <p style="font-family:var(--sans),var(--sans-zh);font-size:max(16px,.94vw);line-height:1.6;color:var(--text-secondary);font-weight:400">先定义做对，再让 Agent 行动。</p>
+              <h3 style="font-family:var(--sans),var(--sans-zh);font-weight:400;font-size:max(18px,1.8vw);line-height:1.2;letter-spacing:-.015em;color:var(--text-primary);margin-bottom:1vh">[必填] takeaway 标题 02</h3>
+              <p style="font-family:var(--sans),var(--sans-zh);font-size:max(16px,.94vw);line-height:1.6;color:var(--text-secondary);font-weight:400">[必填] 1-2 行展开说明.</p>
             </div>
           </div>
           <div style="display:grid;grid-template-columns:auto 1fr;gap:2vw;align-items:start;padding:2.6vh 0;border-top:1px solid var(--border-subtle);border-bottom:2px solid var(--accent)">
             <div style="font-family:var(--sans);font-weight:200;font-size:min(4.4vw,7.8vh);line-height:.9;color:var(--accent)">03</div>
             <div>
-              <h3 style="font-family:var(--sans),var(--sans-zh);font-weight:400;font-size:max(18px,1.8vw);line-height:1.2;letter-spacing:-.015em;color:var(--accent);margin-bottom:1vh">今天就练习 · accent</h3>
-              <p style="font-family:var(--sans),var(--sans-zh);font-size:max(16px,.94vw);line-height:1.6;color:var(--text-secondary);font-weight:400">定义问题、设计评测、搭起 Harness。</p>
+              <h3 style="font-family:var(--sans),var(--sans-zh);font-weight:400;font-size:max(18px,1.8vw);line-height:1.2;letter-spacing:-.015em;color:var(--accent);margin-bottom:1vh">[必填] takeaway 标题 03 · accent 强调</h3>
+              <p style="font-family:var(--sans),var(--sans-zh);font-size:max(16px,.94vw);line-height:1.6;color:var(--text-secondary);font-weight:400">[必填] 最后一条用 IKB 强调,与封面色彩首尾闭环.</p>
             </div>
           </div>
         </div>
@@ -1419,15 +1381,29 @@
     </div>
   </div>
 </section>
+</template>
 
 </div>
 
 <div id="nav"></div>
 
-<!-- 本版本不启用演示者模式与演讲备注。 -->
+<!-- 演讲备注：替换示例页时同步替换，id 必须与 section[data-slide-id] 一致。 -->
 <script>
-const SPEAKER_NOTES = [];
-window.__SPEAKER_NOTES__ = SPEAKER_NOTES;
+const SPEAKER_NOTES = [
+  {
+    id: 'cover', title: '[必填] Deck 标题', section: '开场', minutes: 0.6,
+    purpose: '建立主题与现场预期',
+    talk: ['用一句反差或问题开场', '说明为什么是现在讲这件事', '只预告主线，不在封面展开细节'],
+    transition: '从开场问题进入核心内容', cue: '停顿，确认观众屏已同步'
+  },
+  {
+    id: 'closing', title: '[必填] Closing', section: '收束', minutes: 0.8,
+    purpose: '收束全场并留下可记忆的行动点',
+    talk: ['回扣开场时提出的问题', '把三条 takeaway 说成一个完整判断', '给观众一个会后可以立即采取的动作'],
+    transition: '结束演讲，进入提问或致谢', cue: '停顿 2 秒后致谢'
+  }
+];
+window.__SPEAKER_NOTES__ = [];
 </script>
 
 <script>
@@ -1580,7 +1556,7 @@ addEventListener('swiss-low-power-change', e=>{e.detail.on ? stopGrid() : startG
 
 // =============== 导航 ===============
 const deck=document.getElementById('deck');
-const slides=deck.querySelectorAll('.slide:not(.template-example)');
+const slides=deck.querySelectorAll('.slide');
 const nav=document.getElementById('nav');
 let idx=0,total=slides.length,lock=false;
 
@@ -2101,7 +2077,7 @@ window.__pptPresenter=(()=>{
     const editable=e.target?.matches?.('input,textarea,[contenteditable="true"]');
     if(editable){if(e.key==='Escape')e.target.blur();return true;}
     if(mode==='audience'||mode==='preview'){e.preventDefault();return true;}
-    if(false && mode==='deck'&&e.key?.toLowerCase()==='p'&&!e.metaKey&&!e.ctrlKey&&!e.altKey){e.preventDefault();enterPresenter(true);return true;}
+    if(mode==='deck'&&e.key?.toLowerCase()==='p'&&!e.metaKey&&!e.ctrlKey&&!e.altKey){return true;}
     if(mode!=='presenter')return false;
     const key=e.key?.toLowerCase();
     const dialog=document.getElementById('ppt-dialog');
@@ -2126,8 +2102,7 @@ window.__pptPresenter=(()=>{
   function initMode(){
     document.getElementById('ppt-low-power-btn')?.addEventListener('click',()=>window.__setLowPowerMode(!window.__lowPowerMode));
     document.getElementById('ppt-overview-btn')?.addEventListener('click',toggleOverview);
-    document.getElementById('ppt-presenter-btn')?.addEventListener('click',()=>enterPresenter(true));
-    if(requestedMode==='audience')initAudience();else if(requestedMode==='preview')initPreview();else if(false && requestedMode==='presenter')enterPresenter(false);
+    if(requestedMode==='audience')initAudience();else if(requestedMode==='preview')initPreview();
   }
   setInterval(()=>{
     renderTimer();renderInks();updateAutoAdvance();
