@@ -1,47 +1,81 @@
 # 《AI Native：当 AI 成为团队的原住民》
 
-> 总时长：20 分钟 | 建议 PPT 页数：≤ 15 页  
+> 总时长：20 分钟
 ---
 
-## 一、开场（2 分钟）
+## 一、开场演示（2 分钟）
 
-- 开场演示
+> [!演示内容]
+> - 通过 多个Agent代理 自动化日常工作
+> - 通过 一个Agent团队 完成产品需求迭代
 
-> [!演示]
-> **采用截图方式演示**（不用现场实时跑，规避现场网络/接口不可信风险）
-> - 选取对象：需要有反差，用 Agent 完成一件传统方式要半天的事
-> - 演示内容：多Agent协作完成一个 Monitor 的 task ticket
+### 自动化任务
 
-1. PM Agent 负责拆解需求，TLeader Agent 负责拆解任务
+> [!原生思维]
+> Agent是否可以分担重复、繁琐、耗时的工作
+
+![](assets/20260904-111805.webp)
+
+//todo: 截图，移动端远程指派任务
+
+### 产品需求迭代
+
+> [!原生思维]
+> 跳出圈子，上帝视角，你的判断决定一切
+
+//todo 生图，一张多Agent的协作流程图
+
+1. TLeader 拆解任务
 ![](assets/d741d8cf-df46-4b9a-b067-c9ff4d4487a7.webp)
 
-2. PMO Agent 派发任务给 Worker Agent
+2. PMO 派发任务给 Worker
 ![](assets/c85aa7b0-5f3d-44df-980e-aab0b16b5156.webp)
 
-3. Worker Agent 完成任务并反馈给 PMO Agent
+3. Worker 完成任务并反馈给 PMO
 ![](<assets/Pasted image 20260825211802.webp>)
 
-4. PMO Agent 指派让 Code Reviewer Agent 审查代码
+4. PMO 指派让 Code Reviewer 审查代码
 ![](assets/ebb0c7e9-82d5-419c-92ed-f9b770862549.webp)
 
-5. Code Reviewer Agent 审查出问题
+5. Code Reviewer 审查出问题
 ![](assets/1561dc89-8b33-4ef7-ae27-fee2feb0dd6f.webp)
 
-6. Worker Agent 修复后再次提交审查，最终通过
+6. Worker 修复后再次提交审查
 ![](assets/77d7519f-e080-4d6e-a998-919476ad0a69.webp)
 
-​
-- 过去我们是『给软件加个 AI 功能』，现在是『从零开始让 AI 长成产品』—— 这两者有什么本质区别？
 
+## 二、 AI 技术发展
+
+### 工程技术
+
+> [!AGC 到来]
+> - AI模型本身没有问题，瓶颈在人
+> - AI写代码这事已经没有问题，瓶颈在其他环节
+
+Prompt Engineering -> Context Engineering -> Harness Engineering -> Loop Engineering
+
+// todo: 生图，展示技术发展过程图
+
+### 人人都是产品经理
+
+> [!跨界，无限可能]
+> - OPC
+> - 各种跨界：产品经理技术出生，HR/PMO 手搓 Agent
+
+
+### 过去是『给软件加个 AI 功能』，现在是『从零开始让 AI 长成产品』
+
+这两者有什么本质区别？
 
 > [!解释]
 > - 给软件加 AI，就像给一匹马装发动机——马还是主角；而 AI Native，是直接造一辆汽车——发动机本身就是主角。
 > - **以前 AI 是配角客串，现在 AI 是主角执导。**
 
-
 > [!解释]
 > - 传统软件里代码是大脑、AI 在缝里补一刀；AI Native 里**模型成了运行时（runtime）**，自己决定调哪个工具、走哪条路——代码反而成了它调用的『肌肉』。
 > - **代码从"大脑"退成"手脚"，模型成了控制流。**
+
+
 
 
  - **AI 从『被调用的功能』变成了『驱动产品的内核』**。这，就是我们今天要聊的 AI Native。
